@@ -1,0 +1,10 @@
+double* parabolan(double *x,double *y,int st);
+double znach(double *P,double x);
+double* drob(double *x,double *y,int st);
+double *gybrid(double *x,double *y);
+double *stepen(double *x,double *y);
+bool student(double t,double pr, int N);
+double *fault(double *y,double *Y);
+double *correlation(double *y,double *x,double *Y);
+double kritstudent(double *y,double *x,double *Y);
+double *exponent(double *x,double *y);

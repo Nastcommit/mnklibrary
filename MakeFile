@@ -1,0 +1,10 @@
+CXX=g++
+CXXFLAGS=-c
+mnk.o: mnk.cxx mnk.h
+	$(CXX) $(CXXFLAGS) $<
+mnkmain: MNKex.cxx mnk.o
+	$(CXX) $^ -o $@
+start : mnkmain
+	./mnkmain
+deleteobj:
+	rm -f *.o
